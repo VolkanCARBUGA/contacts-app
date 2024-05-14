@@ -1,0 +1,47 @@
+#Container {
+    width: 600px;
+    background-color: aliceblue;
+    padding: 10px;
+    border-radius: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 0 10px black;
+}
+
+input {
+    width: 100%;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+ul, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.list {
+    margin: 15px 0;
+    padding: 5;
+}
+
+.list > li {
+    background-color: antiquewhite;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button {
+    background-color: antiquewhite;
+    border-radius: 5px;
+    border-color: antiquewhite;
+    margin: 0 auto; /* Ortalamak için */
+    padding: 7px;
+    display: flex;
+    cursor: pointer;
+}
